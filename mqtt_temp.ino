@@ -108,7 +108,7 @@ void getTemp()
        // if (millis() > (time + 150000)) {
     tempTimeout = millis();
     client.publish(TEMP_TOPIC, temp);
-    delay( 500 );
+    delay( 1000 );
     
 #ifdef DEBUG_PRINT
       Serial.println(temp);
