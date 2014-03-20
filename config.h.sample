@@ -1,0 +1,6 @@
+
+//#define DEBUG_PRINT
+
+#define MQTT_SERVER "192.168.1.1"
+#define TEMP_TOPIC "house/room1/temp"
+#define  CLIENT_ID "room1"
